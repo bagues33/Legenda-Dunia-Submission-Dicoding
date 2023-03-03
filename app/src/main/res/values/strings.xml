@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Legenda Dunia</string>
+    <string name="bio">\"Sukseslah dengan cara yang berkualitas\"</string>
+    <string name="colon">&#160; : &#160;</string>
+    <string name="profile">Profile</string>
+    <string name="info">Info</string>
+    <string name="ok">OK</string>
+    <string name="desc_app">Halo semua, ini adalah aplikasi untuk menampilkan pemain sepak bola terbaik di dunia.</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="personality">Personality</string>
+    <string name="references">References</string>
+    <string name="link_github">Github</string>
+    <string name="email">bagustofan@yahoo.com</string>
+    <string name="nama">Tofan Bagus Apriyanto</string>
+    <string name="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</string>
+</resources>
