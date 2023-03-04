@@ -4,16 +4,17 @@ import com.recoder.legendadunia.R
 import com.recoder.legendadunia.model.LegendaDunia
 
 object LegendaDuniaData {
-    private val dNames = arrayOf("Messi",
-    "Cristiano Ronaldo",
-    "Neymar",
-    "Kylian Mbappe",
-    "Pele",
-    "Mohammed Salah",
-    "Ronaldo",
-    "Robert Lewandowski",
-    "Diego Maradona",
-    "Karim Benzema")
+    private val dNames = arrayOf(
+        "Messi",
+        "Cristiano Ronaldo",
+        "Neymar",
+        "Kylian Mbappe",
+        "Pele",
+        "Mohammed Salah",
+        "Ronaldo",
+        "Robert Lewandowski",
+        "Diego Maradona",
+        "Karim Benzema")
 
     private val dThumb = intArrayOf(
         R.drawable.messi,
@@ -28,7 +29,8 @@ object LegendaDuniaData {
         R.drawable.benzema
     )
 
-    private val dPhoto = intArrayOf(R.drawable.messi,
+    private val dPhoto = intArrayOf(
+        R.drawable.messi,
         R.drawable.cristiano_ronaldo,
         R.drawable.neymar,
         R.drawable.mbappe,
@@ -39,6 +41,53 @@ object LegendaDuniaData {
         R.drawable.maradona,
         R.drawable.benzema)
 
+    private val dKelahiran = arrayOf(
+        "24 Juni 1987 (usia 35 tahun)",
+        "5 Februari 1985 (usia 38 tahun",
+        "5 Februari 1992 (usia 31 tahun)",
+        "20 Desember 1998 (usia 24 tahun)",
+        "23 Oktober 1940",
+        "15 Juni 1992 (usia 30 tahun)",
+        "18 September 1976 (usia 46 tahun)",
+        "21 Agustus 1988 (usia 34 tahun)",
+        "30 Oktober 1960",
+        "19 Desember 1987 (usia 35 tahun)")
+
+    private val dKebangsaan = arrayOf(
+        "Argentina, Italia, Spanyol",
+        "Portugis",
+        "Brasil",
+        "Prancis",
+        "Brasil",
+        "Mesir",
+        "Brasil",
+        "Polandian",
+        "Argentina",
+        "Prancis")
+
+    private val dGaji = arrayOf(
+        "41 juta USD (2022)",
+        "62 juta GBP (2023)",
+        "40,8 juta GBP (2022)",
+        "72 juta EUR (2023)",
+        "18,2 juta GBP (2023)",
+        "30 juta euro",
+        "13 juta euro",
+        "150 ribu pound",
+        "29 Juta USD",
+        "8 juta GBP (2021)")
+
+    private val dTim = arrayOf(
+        "Paris Saint-Germain F.C. (#30 / Penyerang), Tim nasional sepak bola Argentina (#10 / Penyerang)",
+        " Al-Nassr FC (#7 / Penyerang), Tim nasional sepak bola Portugal (#7 / Penyerang)",
+        "Paris Saint-Germain F.C. (#10 / Penyerang), Tim nasional sepak bola Brasil (#10 / Penyerang), Brazil",
+        "Paris Saint-Germain F.C. (#7 / Penyerang), Tim nasional sepak bola Prancis (#10 / Penyerang)",
+        "Santos FC dan New York Cosmos",
+        "Liverpool F.C. (#11 / Penyerang), Tim nasional sepak bola Mesir (#10 / Penyerang)",
+        "Brazil",
+        "FC Barcelona (#9 / Penyerang), Tim nasional sepak bola Polandia (#9 / Penyerang)",
+        "Gimnasia La Plata (Manajer sepak bola, 2019–2020), LAINNYA",
+        "Real Madrid")
 
     private val dDescription = arrayOf("Lionel Andrés Messi juga dikenal sebagai Leo Messi, adalah seorang pemain sepak bola profesional asal Argentina yang bermain sebagai penyerang untuk klub Ligue 1 Paris Saint-Germain dan merupakan kapten tim nasional Argentina.",
         "Cristiano Ronaldo dos Santos Aveiro adalah seorang pemain sepak bola profesional asal Portugal yang bermain sebagai penyerang dan juga kapten tim nasional Portugal.",
@@ -61,6 +110,10 @@ object LegendaDuniaData {
                 data.thumbnail = dThumb[position]
                 data.photo = dPhoto[position]
                 data.description = dDescription[position]
+                data.kelahiran = dKelahiran[position]
+                data.kebangsaan = dKebangsaan[position]
+                data.gaji = dGaji[position]
+                data.tim = dTim[position]
                 list.add(data)
             }
             return list

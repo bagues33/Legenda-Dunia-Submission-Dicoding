@@ -9,4 +9,8 @@ data class LegendaDunia (
     var thumbnail : Int ?= 0,
     var photo : Int ?= 0,
     var description : String ?= "",
+    var kelahiran : String ?= "",
+    var kebangsaan : String ?= "",
+    var gaji : String ?= "",
+    var tim : String ?= "",
 ) : Parcelable

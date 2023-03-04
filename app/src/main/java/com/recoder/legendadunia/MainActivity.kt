@@ -1,10 +1,8 @@
 package com.recoder.legendadunia
 
 import android.content.Intent
-import android.content.SharedPreferences
 import android.os.Bundle
 import android.util.DisplayMetrics
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -18,7 +16,6 @@ import com.recoder.legendadunia.adapter.LegendaDuniaAdapter
 import com.recoder.legendadunia.databinding.ActivityMainBinding
 import com.recoder.legendadunia.model.LegendaDunia
 import com.recoder.legendadunia.repository.LegendaDuniaData
-
 
 class MainActivity : AppCompatActivity() {
 
@@ -38,7 +35,6 @@ class MainActivity : AppCompatActivity() {
         mainBinding.rvLegendaDunia.layoutManager = LinearLayoutManager(this)
         val legendaDuniaAdapter = LegendaDuniaAdapter(list)
         mainBinding.rvLegendaDunia.adapter = legendaDuniaAdapter
-
 
     }
 
